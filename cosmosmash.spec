@@ -1,4 +1,5 @@
-Summary: 	Cosmosmash.
+Summary: 	Cosmosmash game
+Summary(pl):	Gra Cosmosmash
 Name:		cosmosmash
 Version:	1.2
 Release:	1
@@ -9,21 +10,28 @@ URL:		http://sarrazip.com/dev/cosmosmash.html
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
-Requires: 	gengameng >= 4.1
 Requires:	SDL >= 1.2.0
 Requires:	SDL_image >= 1.2.0
+Requires: 	gengameng >= 4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
 
 %description
-Cosmosmash is a game where you control a base that must
-destroy rocks before they hit the ground, or you lose points.
-You must also prevent "spinners" from touching the ground,
-or your base will explode. This game is a clone of the 1981
-Astrosmash video game by Mattel Electronics.
- 
+Cosmosmash is a game where you control a base that must destroy rocks
+before they hit the ground, or you lose points. You must also prevent
+"spinners" from touching the ground, or your base will explode. This
+game is a clone of the 1981 Astrosmash video game by Mattel
+Electronics.
+
+%description -l pl
+Cosmosmash to gra, w której steruje siê baz±, która musi zniszczyæ
+g³azy zanim uderz± w ziemiê - w przeciwnym wypadku traci siê punkty.
+Trzeba tak¿e zapobiec dotkniêciu ziemi przez obracaj±ce siê obiekty -
+w przeciwnym wypadku baza eksploduje. Cosmosmash jest klonem gry wideo
+Astrosmash, stworzonej w 1981 roku przez Mattel Electronics.
+
 %prep
 %setup -q
 
