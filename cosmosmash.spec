@@ -1,15 +1,15 @@
 Summary:	Cosmosmash game
 Summary(pl):	Gra Cosmosmash
 Name:		cosmosmash
-Version:	1.4.0
+Version:	1.4.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-# Source0-md5:	3b6fb18ac9302d0c528309ba3dcec0db
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
+# Source0-md5:	85f7ea8d961a4c407fb99f07dee006c1
 URL:		http://sarrazip.com/dev/cosmosmash.html
-BuildRequires:	flatzebra-devel >= 0.1.0
-Requires:	flatzebra >= 0.1.0
+BuildRequires:	flatzebra-devel >= 0.1.1
+Requires:	flatzebra >= 0.1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
