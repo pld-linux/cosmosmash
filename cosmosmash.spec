@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
+# Source0-md5:	ceae78f15cdbce3f6774b8f6bc201fe2
 URL:		http://sarrazip.com/dev/cosmosmash.html
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel >= 1.2.0
