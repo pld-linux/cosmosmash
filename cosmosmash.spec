@@ -15,8 +15,6 @@ Requires:	SDL_image >= 1.2.0
 Requires: 	gengameng >= 4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Cosmosmash is a game where you control a base that must destroy rocks
