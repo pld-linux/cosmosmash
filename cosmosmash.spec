@@ -1,12 +1,12 @@
 Summary: 	Cosmosmash game
 Summary(pl):	Gra Cosmosmash
 Name:		cosmosmash
-Version:	1.2
+Version:	1.4.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
+# Source0-md5:	3b6fb18ac9302d0c528309ba3dcec0db
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
-# Source0-md5:	ceae78f15cdbce3f6774b8f6bc201fe2
 URL:		http://sarrazip.com/dev/cosmosmash.html
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel >= 1.2.0
