@@ -8,14 +8,9 @@ Group:		X11/Applications/Games
 # Source0-md5:	3b6fb18ac9302d0c528309ba3dcec0db
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
 URL:		http://sarrazip.com/dev/cosmosmash.html
-BuildRequires:	SDL-devel >= 1.2.0
-BuildRequires:	SDL_image-devel >= 1.2.0
-BuildRequires:	gengameng-devel >= 4.1
-Requires:	SDL >= 1.2.0
-Requires:	SDL_image >= 1.2.0
-Requires:	gengameng >= 4.1
+BuildRequires:	flatzebra-devel >= 0.1.0
+Requires:	flatzebra >= 0.1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Cosmosmash is a game where you control a base that must destroy rocks
@@ -35,22 +30,23 @@ Astrosmash, stworzonej w 1981 roku przez Mattel Electronics.
 %setup -q
 
 %build
-%configure2_13
+%configure
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	gnomedesktopentrydir=%{_applnkdir}/Games/Arcade
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING THANKS NEWS TODO
+%doc AUTHORS NEWS README THANKS TODO
 %attr(755,root,root) %{_bindir}/%{name}
+%{_datadir}/sounds/%{name}
 %{_pixmapsdir}/%{name}.png
-%{_applnkdir}/Games/Arcade/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
 %{_mandir}/man6/%{name}.6*
