@@ -1,4 +1,4 @@
-Summary: 	Cosmosmash game
+Summary:	Cosmosmash game
 Summary(pl):	Gra Cosmosmash
 Name:		cosmosmash
 Version:	1.4.0
@@ -13,7 +13,7 @@ BuildRequires:	SDL_image-devel >= 1.2.0
 BuildRequires:	gengameng-devel >= 4.1
 Requires:	SDL >= 1.2.0
 Requires:	SDL_image >= 1.2.0
-Requires: 	gengameng >= 4.1
+Requires:	gengameng >= 4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
