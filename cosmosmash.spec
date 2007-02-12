@@ -1,5 +1,5 @@
 Summary:	Cosmosmash game
-Summary(pl.UTF-8):   Gra Cosmosmash
+Summary(pl.UTF-8):	Gra Cosmosmash
 Name:		cosmosmash
 Version:	1.4.1
 Release:	1
