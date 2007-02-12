@@ -1,5 +1,5 @@
 Summary:	Cosmosmash game
-Summary(pl):	Gra Cosmosmash
+Summary(pl.UTF-8):   Gra Cosmosmash
 Name:		cosmosmash
 Version:	1.4.1
 Release:	1
@@ -19,10 +19,10 @@ before they hit the ground, or you lose points. You must also prevent
 game is a clone of the 1981 Astrosmash video game by Mattel
 Electronics.
 
-%description -l pl
-Cosmosmash to gra, w której steruje siê baz±, która musi zniszczyæ
-g³azy zanim uderz± w ziemiê - w przeciwnym wypadku traci siê punkty.
-Trzeba tak¿e zapobiec dotkniêciu ziemi przez obracaj±ce siê obiekty -
+%description -l pl.UTF-8
+Cosmosmash to gra, w ktÃ³rej steruje siÄ™ bazÄ…, ktÃ³ra musi zniszczyÄ‡
+gÅ‚azy zanim uderzÄ… w ziemiÄ™ - w przeciwnym wypadku traci siÄ™ punkty.
+Trzeba takÅ¼e zapobiec dotkniÄ™ciu ziemi przez obracajÄ…ce siÄ™ obiekty -
 w przeciwnym wypadku baza eksploduje. Cosmosmash jest klonem gry wideo
 Astrosmash, stworzonej w 1981 roku przez Mattel Electronics.
 
